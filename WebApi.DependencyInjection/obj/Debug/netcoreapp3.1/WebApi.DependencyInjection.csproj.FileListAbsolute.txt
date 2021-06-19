@@ -1,0 +1,9 @@
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.DependencyInjection.deps.json
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.DependencyInjection.dll
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.DependencyInjection.pdb
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.csprojAssemblyReference.cache
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.AssemblyInfo.cs
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.dll
+C:\Users\Natalia\Documents\Visual Studio 2019\Projects\WebApiService\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.pdb
