@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using Serilog;
 using Microsoft.Extensions.Logging;
+using WebApi.Core;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,10 +16,13 @@ namespace WebApi.Api.Controllers
     public class WebApiController : ControllerBase
     {
         private readonly ILogger<WebApiController> _logger;
+        private readonly IClientService _clientService;
 
-        public WebApiController(ILogger<WebApiController> logger)
+        public WebApiController(ILogger<WebApiController> logger,
+            IClientService clientService)
         {
             _logger = logger;
+            _clientService = clientService;
         }
 
         [HttpGet]
@@ -31,32 +36,37 @@ namespace WebApi.Api.Controllers
         /// Создать элемент
         /// </summary>
         [HttpPost()]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        public string CreateItem([FromBody] string data)
+        [ProducesResponseType(typeof(int), StatusCodes.Status200OK)]
+        public async Task<ActionResult<int>> CreateItem([FromBody] ClientInfoJson data)
         {
-            return $"created: {data}";
+            var clId = await _clientService.CreateClient(data);
+            return Ok(clId);
         }
 
         /// <summary>
         /// Обновить элемент
         /// </summary>
         [HttpPatch("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
         public string PatchItem(int id, [FromBody] string data)
         {
             return $"patched: {data}";
         }
 
         [HttpGet("{id}")]
-        public string Get(int id)
+        [ProducesResponseType(typeof(ClientInfo), StatusCodes.Status200OK)]
+        public async Task<ActionResult<ClientInfo>> GetClientInfo(int id)
         {
-            return $"value {id}";
+            var clInfo = await _clientService.GetClientInfo(id);
+            return Ok(clInfo);
         }
 
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        public void DeleteById(int id)
+        public async Task<ActionResult> DeleteById(int id)
         {
+            var delNum = await _clientService.DeleteClient(id);
+            return Ok();
         }
     }
 }

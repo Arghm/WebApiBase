@@ -16,3 +16,8 @@ C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\obj\Debug\netco
 C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.csproj.CoreCompileInputs.cache
 C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.dll
 C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.pdb
+C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.Core.dll
+C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.Core.pdb
+C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\obj\Debug\netcoreapp3.1\WebApi.DependencyInjection.csproj.CopyComplete
+C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.Common.dll
+C:\Users\user\Source\Repos\WebApiBase\WebApi.DependencyInjection\bin\Debug\netcoreapp3.1\WebApi.Common.pdb

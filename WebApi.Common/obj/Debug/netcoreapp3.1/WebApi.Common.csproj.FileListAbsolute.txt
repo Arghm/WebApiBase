@@ -15,3 +15,4 @@ C:\Users\user\Source\Repos\WebApiBase\WebApi.Common\obj\Debug\netcoreapp3.1\WebA
 C:\Users\user\Source\Repos\WebApiBase\WebApi.Common\obj\Debug\netcoreapp3.1\WebApi.Common.csproj.CoreCompileInputs.cache
 C:\Users\user\Source\Repos\WebApiBase\WebApi.Common\obj\Debug\netcoreapp3.1\WebApi.Common.dll
 C:\Users\user\Source\Repos\WebApiBase\WebApi.Common\obj\Debug\netcoreapp3.1\WebApi.Common.pdb
+C:\Users\user\Source\Repos\WebApiBase\WebApi.Common\obj\Debug\netcoreapp3.1\WebApi.Common.csprojAssemblyReference.cache
