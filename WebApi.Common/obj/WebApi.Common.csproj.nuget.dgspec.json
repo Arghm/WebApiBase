@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Natalia\\Documents\\Visual Studio 2019\\Projects\\WebApiService\\WebApi.Common\\WebApi.Common.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\WebApiBase\\WebApi.Common\\WebApi.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Natalia\\Documents\\Visual Studio 2019\\Projects\\WebApiService\\WebApi.Common\\WebApi.Common.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\WebApiBase\\WebApi.Common\\WebApi.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Natalia\\Documents\\Visual Studio 2019\\Projects\\WebApiService\\WebApi.Common\\WebApi.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\WebApiBase\\WebApi.Common\\WebApi.Common.csproj",
         "projectName": "WebApi.Common",
-        "projectPath": "C:\\Users\\Natalia\\Documents\\Visual Studio 2019\\Projects\\WebApiService\\WebApi.Common\\WebApi.Common.csproj",
-        "packagesPath": "C:\\Users\\Natalia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Natalia\\Documents\\Visual Studio 2019\\Projects\\WebApiService\\WebApi.Common\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\WebApiBase\\WebApi.Common\\WebApi.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\WebApiBase\\WebApi.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Natalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,11 +108,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

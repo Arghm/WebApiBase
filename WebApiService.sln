@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.PublicApi", "WebApiService\WebApi.PublicApi.csproj", "{2D9B6554-B102-43A8-85F3-A5E06D9688DC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Common", "WebApi.Common\WebApi.Common.csproj", "{F5BC9CF2-EE49-4BF7-BAA8-F4E46EE4B771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.DependencyInjection", "WebApi.DependencyInjection\WebApi.DependencyInjection.csproj", "{C177DA91-DCC2-4E80-9EAF-9F91838E932E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.DependencyInjection", "WebApi.DependencyInjection\WebApi.DependencyInjection.csproj", "{C177DA91-DCC2-4E80-9EAF-9F91838E932E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Api", "WebApi.Api\WebApi.Api.csproj", "{C82FD7DC-CBBC-4DFD-A935-08D0F9D8D672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D9B6554-B102-43A8-85F3-A5E06D9688DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D9B6554-B102-43A8-85F3-A5E06D9688DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D9B6554-B102-43A8-85F3-A5E06D9688DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D9B6554-B102-43A8-85F3-A5E06D9688DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5BC9CF2-EE49-4BF7-BAA8-F4E46EE4B771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5BC9CF2-EE49-4BF7-BAA8-F4E46EE4B771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BC9CF2-EE49-4BF7-BAA8-F4E46EE4B771}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{C177DA91-DCC2-4E80-9EAF-9F91838E932E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C177DA91-DCC2-4E80-9EAF-9F91838E932E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C177DA91-DCC2-4E80-9EAF-9F91838E932E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82FD7DC-CBBC-4DFD-A935-08D0F9D8D672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82FD7DC-CBBC-4DFD-A935-08D0F9D8D672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82FD7DC-CBBC-4DFD-A935-08D0F9D8D672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82FD7DC-CBBC-4DFD-A935-08D0F9D8D672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
